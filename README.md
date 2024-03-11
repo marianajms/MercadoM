@@ -1,4 +1,4 @@
-# Projeto Mercados M's
+# Projeto Mercados Magre
 
 Este projeto foi desenvolvido como parte do curso Descodificadas.
 
