@@ -13,13 +13,15 @@ body{
 
 .item {
     flex: 1; /* Faz com que os itens tenham a mesma largura */
-    margin: 2rem 10px 0 0; /* Espaçamento entre os itens */
+    margin: 2em 0 0 0; /* Espaçamento entre os itens */
     text-align: center; /* Centraliza o texto */
     overflow: hidden; /* Garante que a sombra não transborde */
-    height: 300px; /* Definindo altura dos itens */
-    /* ou
-    padding: 20px; // Adicionando padding interno para aumentar a altura
-    */
+    height: 200px;
+}
+
+.item a {
+    display: block; /* Transforma o link em um bloco, ocupando todo o espaço do item */
+    height: 100%; /* Garante que o link ocupe toda a altura do item */
 }
 
 
@@ -27,6 +29,9 @@ body{
     filter: brightness(0.8);
     width: auto; /* Define a largura da imagem como automática */
     height: 100%; /* Define a altura da imagem como 100% do contêiner pai */
+    width: 100%; /* Garante que a imagem preencha todo o espaço disponível */
+    height: 100%; /* Garante que a imagem preencha toda a altura do item */
+    object-fit: cover; /* Redimensiona a imagem para preencher o espaço mantendo a proporção */
 }
 
 .overlay {
@@ -34,6 +39,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
     color: white;
     font-weight: bold;
     font-size: 24px;
