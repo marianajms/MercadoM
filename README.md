@@ -1,6 +1,6 @@
 # Projeto Mercado Magre
 
-Este projeto foi desenvolvido como parte do curso Descodificadas.
+Este projeto foi desenvolvido para avaliação no curso Descodificadas.
 
 ## Funcionalidades
 
