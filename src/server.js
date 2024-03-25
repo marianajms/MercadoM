@@ -14,6 +14,10 @@ app.get('/localizacao', (req,res)=>{
   res.render('localizacao.ejs')
 })
 
+app.get('/contato', (req,res)=>{
+  res.render('contato.ejs')
+})
+
 app.listen(porta, (error) => {
     if (error) {
       console.log("Ocorreu um erro");

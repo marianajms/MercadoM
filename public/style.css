@@ -1,6 +1,9 @@
 body{
     background-color: rgb(246, 244, 239);
 }
+p{
+    text-align: justify;
+}
 .principal{
     display: flex;
 }
@@ -47,3 +50,15 @@ body{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.footerStyle{
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+}
+
+.tituloUnidades{
+    background-color: rgb(19, 114, 82);
+    color: aliceblue;
+}
+
